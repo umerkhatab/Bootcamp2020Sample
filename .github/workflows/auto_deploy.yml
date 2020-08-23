@@ -31,5 +31,4 @@ jobs:
       run:  npm install --gobal surge
     - name: deploying using surge
       run : surge ./ umer-firsttask.surge.sh --token $ {{ secrets.surgeToken}}
-        echo Add other actions to build,
-        echo test, and deploy your project.
+
